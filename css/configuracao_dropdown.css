@@ -1,0 +1,15 @@
+.dropdown-item:hover {
+    background-color: green;
+    color: white; /* Para garantir que o texto seja legível */
+}
+
+.dropdown-no-caret::after {
+    display: none !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: -1vw; /* Ajuste o valor conforme necessário */
+}
+
